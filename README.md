@@ -2,7 +2,7 @@
 
 > Evolution of piracy to genuine
 
-Althougth it is a web page built by imitating NetEase cloud music,it is a milestone in the revolution of comarade Wang.
+Although it is a web page built by imitating NetEase cloud music,it is a milestone in the evolution of comarade Wang.
 
 ## Usage
 With npm installed,run
