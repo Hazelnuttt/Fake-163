@@ -1,19 +1,34 @@
-# $$REPO
+# Fake music-163 web page
 
-> $$1LINER
+> Evolution of piracy to genuine
 
-background details relevant to understanding what this module does
+Althougth it is a web page built by imitating NetEase cloud music,it is a milestone in the revolution of comarade Wang.
 
 ## Usage
-
-```js
-$$EXAMPLE
+With npm installed,run
+```
+npm install
+or
+yarn
+```
+### Clean
+```
+npm run clean
 ```
 
-outputs
-
+### Serve
 ```
-hello warld
+npm ren serve
+```
+
+### Dev
+```
+npm run dev
+```
+
+### Build
+```
+npm run build
 ```
 
 ## API
