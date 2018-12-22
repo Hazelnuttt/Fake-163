@@ -1,8 +1,9 @@
-# Fake music-163 web page
+# music-163 web page
 
 > Evolution of piracy to genuine
 
-Although it is a web page built by imitating NetEase cloud music,it is a milestone in the evolution of Comrade Wang.
+## Task number
+Final task
 
 ## Usage
 With npm installed,run
@@ -31,31 +32,3 @@ npm run dev
 npm run build
 ```
 
-## API
-
-```js
-var $$rePo = require('$$REPO')
-```
-
-See [api_formatting.md](api_formatting.md) for tips.
-
-## Install
-
-With [npm](https://npmjs.org/) installed, run
-
-```
-$ npm install $$REPO
-```
-
-## Acknowledgments
-
-$$REPO was inspired by..
-
-## See Also
-
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- ...
-
-## License
-
-$$ZEE_LICENSE
