@@ -4,12 +4,33 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "gulp clean",
+    "sass:watch": "gulp sass:watch",
+    "watch": "gulp watch",
+    "predev": "npm run clean",
+    "dev": "gulp dev",
+    "serve": "npm run dev && gulp serve",
+    "prebuild": "npm run clean",
+    "build": "gulp && gulp serve"
   },
   "author": "Hazelnuttt",
   "license": "ISC",
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.11.0"
   },
   "config": {
     "commitizen": {
