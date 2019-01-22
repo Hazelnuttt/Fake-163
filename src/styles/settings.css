@@ -1,0 +1,88 @@
+.start{
+  margin-top: 50px;
+}
+.start2{
+  text-align: center;
+}
+.start3{
+  text-align: left;
+}
+
+/*第二个导航栏硬塞*/
+.navbar2 {
+  position: relative;
+  min-height: 30px;
+  /*margin-bottom: 20px;*/
+  border: 1px solid transparent;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  /*padding-bottom: 15px;*/
+  line-height: 20px;
+}
+
+.navbar-brand2 {
+  /*float: left;*/
+  height: 50px;
+  /*padding:15px 15px;*/
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-inverse2 {
+  background-color:#9f0c0c;
+  border-color: #080808;
+}
+.btn{
+  margin-top: 10px
+}
+.glyphicon-search{
+  color: white;
+}
+a,a:hover, a:focus {
+  color:#d7c0a4;
+}
+/*真真真的是硬塞，累个半死*/
+
+
+.onepage{
+  background-color: black;
+}
+.onepageside{
+  background: url("../images/side.jpeg");
+  padding-left:880px ;
+  /*这个是滑条右边固定的一个广告，不知道为什么显示不出来。这个暂时没用*/
+}
+.twopageleft{
+  padding-left: 150px;
+
+  /*注意：这个和下面的一个150px打开，网页版会更好看。但移动适配就没用了*/
+
+
+}
+.information{
+  background-color: lightgrey;
+  /*border: black;*/
+  /*这个暂时没用*/
+}
+/*.border{*/
+  /*border:black;*/
+/*}*/
+/*这个暂时没用*/
+.footer{
+  text-align: center;
+}
+
+/*滑动条继续定位*/
+div>img{
+  padding-left: 150px;
+
+  /*注意这个和上面的那个150px打开，网页版更好看，移动端适配就没用了*/
+
+
+}
+
+
+/*hr{*/
+  /*color: darkred;*/
+/*}*/
+/*这个暂时没没用，我想要把水平线变成红色，没有成功*/

@@ -17,7 +17,8 @@ const path = {
   css: './src/styles/**/*.css',
   js: './src/scripts/**/*.js',
   images: './src/images/**/*',
-  html: './src/**/*.html'
+  html: './src/**/*.html',
+  fonts:'./src/fonts/**/*'
 }
 
 // Clean
@@ -125,6 +126,12 @@ gulp.task('html:build', function () {
     }))
     .pipe(gulp.dest('./dist'));
 });
+// fonts
+gulp.task('fonts', function () {
+  return gulp.src(path.fonts)
+    .pipe(gulp.dest('./dist/fonts'))
+    .pipe(connect.reload());
+});
 
 // Watch
 gulp.task('watch', function () {
@@ -136,7 +143,7 @@ gulp.task('watch', function () {
 });
 
 // Dev
-gulp.task('dev', ['sass', 'styles', 'scripts', 'images', 'html']);
+gulp.task('dev', ['sass', 'styles', 'scripts', 'images', 'html','fonts']);
 
 // Serve
 gulp.task('serve', ['watch'], function () {
@@ -147,4 +154,4 @@ gulp.task('serve', ['watch'], function () {
 });
 
 // Default task
-gulp.task('default', ['sass:build', 'styles:build', 'scripts:build', 'images:build', 'html:build']);
+gulp.task('default', ['sass:build', 'styles:build', 'scripts:build', 'images:build', 'html:build','fonts']);

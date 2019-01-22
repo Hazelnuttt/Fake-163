@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/settings.min.css">
+  <link rel="stylesheet" href="./fonts/glyphicons-halflings-regular.eot">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.jpeg" height="30" width="50" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">网易云音乐</a></li>
+          <li class="active"><a href="#">发现音乐</a></li>
+          <li><a href="#">我的音乐</a></li>
+          <li><a href="#">朋友</a></li>
+          <li><a href="#">商城</a></li>
+          <li><a href="#">音乐人</a></li>
+          <li><a href="#">下载客户端</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <span class="glyphicon glyphicon-search">
+                    <input type="text" class="form-control" placeholder="音乐/视频/电台/用户">
+                </span>
+            </div>
+            <div class="form-group">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录 </font></font><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">手机号登录</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">微信登录</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">QQ登录</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">新浪微博登录</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">网易邮箱账号登录</a></li>
+                    </ul>
+                  </li>
+            </div>
+        </form>
+      </div>
+      <!--第一个导航栏结束-->
+    </div>
+  </nav>
+  <div class="start">
+    <nav class="navbar navbar-inverse2">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-star"></span></a>
+            </div>
+          <div id="navbar2" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Billboard</a></li>
+                  <li><a href="#">推荐</a></li>
+                  <li><a href="#">排行榜</a></li>
+                  <li><a href="#">歌单</a></li>
+                  <li><a href="#">主播电台</a></li>
+                  <li><a href="#">歌手</a></li>
+                  <li><a href="#">新碟上架</a></li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+  </div>
+        <!--第二个导航栏结束-->
+  <div class="onepage">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first-slide" src="./images/img1.jpg" alt="First slide">
+        </div>
+
+        <div class="item">
+          <img class="second-slide" src="./images/img2.jpg" alt="Second slide">
+        </div>
+
+        <div class="item active">
+          <img class="third-slide" src="./images/img3.jpg" alt="Third slide">
+        </div>
+
+        <div class="onepageside">
+          <a href="#">
+
+          </a>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!--滑动的一个结束，结束得很难受，右边固定的一个不知道怎么弄-->
+<div class="row">
+  <div class="col-lg-8 twopageleft">
+    <nav class="navbar">
+      <div class="">
+        <!--用模板的后果-->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">热门推荐</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active hidden-xs"><a href="#">华语</a></li>
+            <li class="hidden-xs"><a href="#">流行</a></li>
+            <li class="hidden-xs"><a href="#">摇滚</a></li>
+            <li class="hidden-xs"><a href="#">民谣</a></li>
+            <li class="hidden-xs"><a href="#">电子</a></li>
+            <form class="navbar-form navbar-right hidden-xs">
+              <div class="form-group"><a href="#">更多</a><span class="glyphicon glyphicon-arrow-right"></span></div>
+
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr>
+    <!--第三个导航栏结束-->
+  <div class="row">
+    <span class="col-lg-1 col-sm-1 col-xs-4 col-xs-offset-1">
+      <img src="http://p1.music.126.net/bAsXbpkXiB8Sb0F0OBLI5A==/109951163808586508.jpg?param=140y140">
+      <a title="华语速爆新歌" href="/playlist?id=924680166" class="msk" data-res-id="924680166" data-res-type="13" data-res-action="log" data-res-data="recommendclick|0|featured|user-playlist"></a>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </span>
+
+
+    <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+      <img src="http://p2.music.126.net/W4e8XgGl1LZc6GfgJT84fw==/109951163797018713.jpg?param=140y140">
+      <a title="不管谁说什么都坚持努力的你，超帅气" href="/playlist?id=2625911329" class="msk" data-res-id="2625911329" data-res-type="13" data-res-action="log" data-res-data="recommendclick|1|featured|user-playlist"></a>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </span>
+
+    <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+      <img src="http://p2.music.126.net/2MsstS-M9w5-li0aRy3sUQ==/1380986606815861.jpg?param=140y140">
+      <a title="【旋律控】超级好听的欧美良曲" href="/playlist?id=310970433" class="msk" data-res-id="310970433" data-res-type="13" data-res-action="log" data-res-data="recommendclick|2|cityLevel_B|user-playlist"></a>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </span>
+
+    <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+      <img src="http://p2.music.126.net/FiUzzcTQ4QJWVOr1TMfacg==/109951163806636126.jpg?param=140y140">
+      <a title="那些写香评的人文采有多好？让你隔屏闻到香水味儿" href="/dj?id=2059120223" class="msk" data-res-id="2059120223" data-res-type="13" data-res-action="log" data-res-data="recommendclick|3|featured|user-playlist"></a>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </span>
+  </div>
+    <div class="row">
+      <span class="col-lg-1 col-sm-1 col-xs-4 col-xs-offset-1">
+        <img src="http://p2.music.126.net/vLSB9-NGsd4CLYf_4ShGww==/109951163609572271.jpg?param=140y140">
+        <a title="高 级 感 vlog 纯音乐 BGM" href="/playlist?id=2369772502" class="msk" data-res-id="2369772502" data-res-type="13" data-res-action="log" data-res-data="recommendclick|4|cityLevel_B|user-playlist"></a>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </span>
+
+      <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+        <img src="http://p2.music.126.net/kuiaWD0wQJdlz_gQdFfHKA==/109951163806323822.jpg?param=140y140">
+        <a title="【常识】不仅超龄，还看不到别人家的成人礼" href="/dj?id=2059119114" class="msk" data-res-id="2059119114" data-res-type="13" data-res-action="log" data-res-data="recommendclick|5|featured|user-playlist"></a>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </span>
+
+      <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+        <img src="http://p2.music.126.net/EnVO9LS9xGf2yUqCxyrOHA==/109951163791290294.jpg?param=140y140">
+        <a title="《成年人脆弱疗愈指南》" href="/playlist?id=2620713775" class="msk" data-res-id="2620713775" data-res-type="13" data-res-action="log" data-res-data="recommendclick|6|cityLevel_B|user-playlist"></a>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </span>
+
+      <span class="col-lg-1 col-lg-offset-2 col-sm-1 col-sm-offset-2 col-xs-4 col-xs-offset-1">
+        <img src="http://p2.music.126.net/adZRcU9cAxzQGmSdCih7Sg==/109951163764820061.jpg?param=140y140">
+        <a title="LOVER BOY 88" href="/dj?id=2058769930" class="msk" data-res-id="2058769930" data-res-type="13" data-res-action="log" data-res-data="recommendclick|7|hot_server|user-playlist"></a>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </span>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbr-header">
+        <a class="navbar-brand" href="#">榜单</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <form class="navbar-form navbar-right">
+            <div class="form-group"><a href="#">查看更多</a></div>
+          </form>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <!--第四个导航栏结束-->
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>
+          <span>
+            <img class="j-img" data-src="http://p3.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=100y100" src="http://p3.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=100y100">
+            <a href="/discover/toplist?id=19723756" class="msk" title="云音乐飙升榜"></a>
+          </span>
+          云音乐飙升榜
+        </th>
+        <th>
+          <span>
+            <img class="j-img" data-src="http://p4.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=100y100" src="http://p4.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=100y100">
+            <a href="/discover/toplist?id=3779629" class="msk" title="云音乐新歌榜"></a>
+          </span>
+          云音乐新歌榜
+        </th>
+        <th>
+          <span>
+            <img class="j-img" data-src="http://p3.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=100y100" src="http://p3.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=100y100">
+            <a href="/discover/toplist?id=2884035" class="msk" title="网易原创歌曲榜"></a>
+          </span>
+          网易原创歌曲榜
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1  一曲相思</td>
+        <td>1  起风了</td>
+        <td>1  宝贝</td>
+      </tr>
+      <tr>
+        <td>2  谁的现在没有藏着过往</td>
+        <td>2  7 rings</td>
+        <td>2  小船</td>
+      </tr>
+      <tr>
+        <td>3  神之将至</td>
+        <td>3  天份</td>
+        <td>3  时间简史</td>
+      </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+  <!--侧边的页面-->
+  <div class="col-sm-3 col-sm-offset-1 hidden-md hidden-sm start2">
+    <div class="sidebar-module sidebar-module-inset information">
+      <p class="note s-fc3">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+      <a class="btn btn-danger" href="#">用户登录</a>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbr-header">
+        <a class="navbar-brand" href="#">入驻歌手</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <form class="navbar-form navbar-right">
+            <div class="form-group"><a href="#">查看更多</a></div>
+          </form>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <!--第五个导航栏结束-->
+    <div class="row">
+      <span class="col-lg-1">
+      <img class="j-img" src="http://p2.music.126.net/p9U80ex1B1ciPFa125xV5A==/5931865232210340.jpg?param=62y62">
+    </span>
+      <div class="col-lg-offset-1 border">
+        <h4>张惠妹aMEI</h4>
+        <p>台湾歌手张惠妹</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/1EN_iqQWU_E3DafzEOh3cA==/3302932937408956.jpg?param=62y62">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">Fine乐团</span></h4>
+        <p class="f-thide s-fc3">独立音乐人</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p1.music.126.net/ZuktZvjcxpYBjcWC3gmbPg==/19027048718765608.jpg?param=62y62">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">萬曉利</span></h4>
+        <p class="f-thide s-fc3">民谣歌手、中国现代民谣的代表人物之一</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p1.music.126.net/v_zYgE9kmAwVGWV2c8hFxA==/7943971513291094.jpg?param=62y62">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">音乐人赵雷</span></h4>
+        <p class="f-thide s-fc3">民谣歌手</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p1.music.126.net/U-duMw2-FE0wNRsuwGktPw==/109951162895674268.jpg?param=62y62">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">王三溥</span></h4>
+        <p class="f-thide s-fc3">音乐人</p>
+      </div>
+    </div>
+
+    <a class="btn btn-default" href="">申请成为网易音乐人</a>
+
+    <br>
+    <div class="start3">
+      <p4><em>热门主播</em></p4>
+    </div>
+    <hr>
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/H3QxWdf0eUiwmhJvA4vrMQ==/1407374893913311.jpg?param=40y40" data-src="http://p2.music.126.net/H3QxWdf0eUiwmhJvA4vrMQ==/1407374893913311.jpg?param=40y40">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">陈立</span></h4>
+        <p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/y5-sM7tjnxnu_V9LWKgZlw==/7942872001461517.jpg?param=40y40" data-src="http://p2.music.126.net/y5-sM7tjnxnu_V9LWKgZlw==/7942872001461517.jpg?param=40y40">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">DJ艳秋</span></h4>
+        <p class="f-thide s-fc3">著名音乐节目主持人</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/6cc6lgOfQTo6ovNnTHPyJg==/3427177769086282.jpg?param=40y40" data-src="http://p2.music.126.net/6cc6lgOfQTo6ovNnTHPyJg==/3427177769086282.jpg?param=40y40">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">国家大剧院古典音乐频道</span></h4>
+        <p class="f-thide s-fc3">国家大剧院古典音乐官方</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/xa1Uxrrn4J0pm_PJwkGYvw==/3130309604335651.jpg?param=40y40" data-src="http://p2.music.126.net/xa1Uxrrn4J0pm_PJwkGYvw==/3130309604335651.jpg?param=40y40">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">谢谢收听</span></h4>
+        <p class="f-thide s-fc3">南京电台主持人王馨</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <span class="col-lg-1">
+        <img class="j-img" src="http://p2.music.126.net/slpd09Tf5Ju82Mv-h8MP4w==/3440371884651965.jpg?param=40y40" data-src="http://p2.music.126.net/slpd09Tf5Ju82Mv-h8MP4w==/3440371884651965.jpg?param=40y40">
+      </span>
+      <div class="col-lg-offset-1">
+        <h4><span class="nm f-fs1 f-ib f-thide">DJ晓苏</span></h4>
+        <p class="f-thide s-fc3">独立DJ，CRI环球旅游广播特邀DJ</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <hr>
+  <footer class="footer">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>© 9102 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    <p>THIS IS FAKE-163</p>
+  </footer>
+  <!--页脚-->
+
+
+
+  <script src="./scripts/jquery.min.js"></script>
+  <script src="./scripts/bootstrap.min.js"></script>
+</body>
+</html>
