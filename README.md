@@ -1,6 +1,6 @@
 # fake-music-163 web page
 
-> Evolution of piracy to genuine
+> Evolution of piracy 
 
 ## Task number
 Final task
