@@ -5,10 +5,6 @@
 ## Task number
 Final task
 
-## particularity
-+ If you open two settings in the folder `styles`,its web page is more elegant.
-+ While you close the two settings,it has mobile terminal adaptation.
-
 ## Structure
 ```
 D:\Fake-163
@@ -53,5 +49,12 @@ npm run dev
 ```
 npm run build
 ```
-##
+## Questions
++ parts' border
++ padding/margin
++ slide
++ col-lg-offset-0
++ row
++ data,tostring()
+
 
