@@ -2,6 +2,11 @@ var http = require('http');
 var fs = require('fs');
 var url = require('url');
 
+// var options = {
+//   key: fs.readFileSync('../cert/key.pem'),
+//   cert: fs.readFileSync('../cert/key-cert.pem')
+// };
+
 
 // 创建服务器
 http.createServer( function (request, response) {
@@ -30,7 +35,7 @@ http.createServer( function (request, response) {
            contentType = 'text/' + ends;
          }
          response.writeHead(200, {'Content-Type':contentType});
-         response.write(data,'binary');
+         response.write(data,toString());
          //用二进制，但是一开始，用data.toString()也出来了，，折腾过后，出不来了，，
 
 

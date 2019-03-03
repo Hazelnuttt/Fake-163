@@ -1,3 +1,6 @@
+body{
+  background: #eee;
+}
 .start{
   margin-top: 50px;
 }
@@ -52,11 +55,13 @@ a,a:hover, a:focus {
   padding-left:880px ;
   /*这个是滑条右边固定的一个广告，不知道为什么显示不出来。这个暂时没用*/
 }
-.twopageleft{
-  padding-left: 150px;
+.twopage{
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
 
-  /*注意：这个和下面的一个150px打开，网页版会更好看。但移动适配就没用了*/
-
+  background-color: white;
+  border: 1px solid lightgrey;
 
 }
 .information{
@@ -64,25 +69,55 @@ a,a:hover, a:focus {
   /*border: black;*/
   /*这个暂时没用*/
 }
-/*.border{*/
-  /*border:black;*/
-/*}*/
+.border{
+  border-color:black;
+}
 /*这个暂时没用*/
 .footer{
   text-align: center;
 }
 
 /*滑动条继续定位*/
-div>img{
-  padding-left: 150px;
-
-  /*注意这个和上面的那个150px打开，网页版更好看，移动端适配就没用了*/
-
-
-}
+/*div>img{*/
+  /*padding-left: 150px;*/
+/*}*/
 
 
 /*hr{*/
   /*color: darkred;*/
 /*}*/
 /*这个暂时没没用，我想要把水平线变成红色，没有成功*/
+
+.row
+{
+  margin-bottom: 20px;
+}
+.row span a img
+{
+  position: relative;
+  /*margin-bottom: 10px;*/
+}
+
+.row span span
+{
+  position: absolute;
+  top:100px;
+  bottom: 2px;
+  width: 140px;
+  height:40px;
+  opacity: 0.5;
+  background: #000000;
+  color: red;
+  text-align: center;
+  line-height: 40px;
+  display: none;
+}
+
+.row span a:hover img
+{
+  border: 2px solid red;
+}
+.row span a:hover span
+{
+  display: block;
+}
